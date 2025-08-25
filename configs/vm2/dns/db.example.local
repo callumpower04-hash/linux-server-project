@@ -1,0 +1,11 @@
+$TTL     604800
+@        IN      SOA     vm2.example.local. root.example.local.  (
+                          2         ; Serial
+                     604800         ; Refresh
+                      86400         ; Retry
+		    2419200         ; Expire
+                     604800 )       ; Negative Cache TTL
+@        IN      NS      vm2.example.local.
+vm2      IN      A       10.0.xx.xx
+vm3      IN      A       10.0.xx.xx
+vm1      IN      A       10.0.xx.xx
