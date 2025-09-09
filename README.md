@@ -22,7 +22,8 @@ UFW firewall: deny-all inbound, allow only required services
 
 Role-based VM separation (DNS, DHCP, Mail, Storage) to reduce attack surface
 
-Public repo sanitised (calmnet.local → example.local)
+Public repo sanitised — original internal domain names have been replaced with example.local.
+
 
 Repository Layout
 configs/
